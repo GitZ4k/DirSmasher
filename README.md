@@ -7,14 +7,16 @@ pip install -r requirements.txt
 
 **Using the Script**
 
-Input Status Codes: When prompted, enter the status codes you want the script to look for. You can input multiple status codes by separating them with either commas or spaces.
+*Input Status Codes*: When prompted, enter the status codes you want the script to look for. You can input multiple status codes by separating them with either commas or spaces.
 
 Examples:
 200, 301, 404
 or
 200 301 404
 
-Input Website URL: Enter the target website URL for the brute-force scanning. The script will automatically ensure that the URL starts with https:// and ends with a /.
+*Input Wordlist Path*: When prompted, enter the path to the wordlist file. Make sure the wordlist file is located in the same directory as the script for convenience. For example, you can use the common.txt wordlist file that has been provided.
+
+*Input Website URL*: Enter the target website URL for the brute-force scanning. The script will automatically ensure that the URL starts with https:// and ends with a /.
 
 Example:
 https://example.com
